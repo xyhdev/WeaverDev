@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Resinlib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/Resinlib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/Resinlib" recursive="false" />
+  </library>
+</component>
