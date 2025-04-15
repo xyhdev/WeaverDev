@@ -1,0 +1,160 @@
+body{ padding: 0;margin: 0; }
+a{ text-decoration: none;color: unset; }
+/**ewarning.html**/
+.warning-wrapper{ width: 100%;margin: 0 auto;padding: 0;background-color: #F4F4F4; }
+.warning-wrapper .tit-div{ width: 100%;background-color: #2C79C2;color: #ffffff;padding: 10px 0; }
+.titlenum{ padding: 10px;text-align: center; }
+.titlenum > div{ display: inline-block;vertical-align: middle;width: 48%;font-size: 28px;font-weight: 700;
+ border-left: 1px solid #6095CF;}
+ .titlenum > div:nth-child(1){border-left: 0px !important;}
+.titlenum > div span{ display: block;font-size: 12px;font-weight: 400; }
+.soudiv{ border-radius: 3px;text-align: center;background-color: #4586C9;margin: 10px auto;width: 90%; }
+.soudiv > div{ display: inline-block;vertical-align: bottom; }
+.soudiv .souimg{ float: left;margin: 6px 0 0 6px; }
+.soudiv .btnimg{ float: right;margin: 6px 6px 0 0px; }
+.soudiv > div > img{ width: 18px; } 
+.souclass{ width:calc( 100% - 50px ); }
+.souclass input{color: #FFFFFF;
+	width: 100%;
+	    height: 30px;
+	    line-height: 30px;
+	    padding: 0;
+	    background: transparent;
+	    border: 0;
+	    outline: none;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+}
+
+.warning-list{ padding: 5px 0;width: 100%;background-color: #F4F4F4; }
+.listdiv{ background-color: #FFFFFF;margin: 5px 0px;padding: 10px 5px; }
+.listtit{ border-bottom: 1px solid #F9F9FB;padding: 5px;font-size: 14px; }
+.listtit > div{ display: inline-block;width: calc(100% - 150px);font-weight: 400; }
+.listtit > span{ float: right;padding: 0 10px; }
+.listtxt{ padding: 6px 6px 0 6px; 
+}
+
+.none{
+	display:none;
+}
+/*
+段落设置为position: relative;以便之后插入的内容相对于段落绝对定位；
+通过将max-height设置为line-height的整数倍来限制最大可容纳的行数；
+ */
+.sndian{position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
+/*
+:after 选择器在被选元素的内容后面插入内容。
+ content 属性来指定要插入的内容。
+ position: absolute; bottom: 0; right: 0;决定省略号相对于父元素的定位。
+ linear-gradient为颜色线性渐变，具体如下方图片所示。防止文字显示一半。
+ */
+.sndian:after{ position: absolute; bottom: 0; right: 0; padding-left: 40px;
+background: -webkit-linear-gradient(right, transparent, #fff 55%);
+background: -o-linear-gradient(right, transparent, #fff 55%);
+background: -moz-linear-gradient(right, transparent, #fff 55%);
+background: linear-gradient(to right, transparent, #fff 100%);
+}
+.listtxt font{ color: #A9A9A9;font-size: 12px; }
+.listtxt span{ font-size: 12px;overflow: hidden;}
+.xqbtn{ float: right;font-size: 12px;text-decoration: none;padding: 2px 10px;border: 1px solid #2c79c2;color: #2c79c2;border-radius: 3px;font-weight: 400;margin-bottom: 3px; }
+
+
+
+
+
+.red{ color: red; }
+
+/**sbu-wrapper**/
+.sbu-wrapper{ background-color: #F4F4F4; }
+.sbu-wrapper .tit-div{ padding: 10px 0 0px 0; }
+.sbu-wrapper .soudiv{ background-color: #FFFFFF; }
+.sbu-wrapper .souclass input{ color: #666666; }
+
+/**book**/
+.book-wrapper{ width: 100%;margin: 0;padding: 0; }
+.booktop{ background-color: #2C79C2;width: 100%; }
+.tabbook{ width: 80%;margin: 0 auto;text-align: center; }
+.tabbook > div{ display: inline-block;color: #FFFFFF;padding: 10px 20px;font-size: 16px; }
+.tabbook > div.ative{ font-weight: 700; }
+.tabbook > div.ative > span{ border-bottom: 2px solid #FFFFFF;width: 30px;display: block;margin: 0 auto;margin-top: 5px;border-radius: 3px;}
+.percentage{ width: 100%;color: #FFFFFF;text-align: center;padding: 30px 0 20px 0; }
+.percentage > div{ font-size: 22px;display: inline-block;width: 31%;border-left: 1px solid #6095CF;font-weight: 700; }
+.percentage > div:nth-child(1){ border: 0px !important; }
+.percentage > div > span{ display: block;font-size: 13px;font-weight: 400; }
+.booklist{ width: 100%;margin: 10px auto; }
+.booklist > div{ width: 100%; }
+.list-title{ vertical-align: top;padding: 5px;
+    font-size: 16px; }
+.list-title .line{ border: 1px solid #2C79C2;background-color: #2C79C2;
+    border-radius: 3px;
+    display: inline-block;
+    width: 2px;
+    height: 20px; }
+.list-title span{display: inline-block;height: 20px;line-height: 20px;padding-left:5px;vertical-align: top;}
+.listtd{ 
+    color: #ffffff;padding-bottom: 10px;
+    margin-top: 10px;
+    vertical-align: top;margin-bottom: 10px;border-radius: 5px; }
+.linebg{ background: url(../images/line.png) center center no-repeat;
+    background-size: 100%;
+    width: 20px;
+    text-align: center;
+    /* position: absolute; */
+    color: #ff6166;
+    font-size: 12px;
+    height: 33px;
+    line-height: 32px;
+    margin-top: -4px;
+    margin-left: 5px;
+	margin-right: 8px;
+    vertical-align: top; }
+.tdredbg{ background-image: linear-gradient(to right,#FF8B8F, #FF5C63); }
+.tdredbg .linebg{ color: #FF5C63; }
+.tdyellowbg{ background-image: linear-gradient(to right,#FFBE6E, #FFAD51);  }
+.tdyellowbg .linebg{ color: #FFAD51; }
+.tdgreenbg{ background-image: linear-gradient(to right,#14E6C0, #16E6C0); }
+.tdgreenbg .linebg{ color: #16E6C0; }
+.listtd > div{ display: inline-block;vertical-align: top; }
+.dw1,.dw2,.dw3,.dw4,.xqimg{ margin-top: 17px;font-size: 14px; }
+.dw1 > span{ display: block;font-size: 12px;padding: 3px 0; }
+.xqimg{ margin-top: 26px;float: right;padding-right: 10px; }
+.xqimg img{ width: 16px; }
+.listhead{ padding: 0 10px; }
+.listhead span{ color: #666666;font-size: 12px;display: inline-block; }
+.dw1{ width: 25%; }
+.dw2{ width: 18%; }
+.dw3{ width: 15%; }
+.dw4{ width: 15%; }
+.listtbody{ padding: 0 10px; }
+
+.mrates-wrapper{ width: 100%; }
+.mrates-wrapper .soudiv{ background-color: #F4F4F4; }
+.mrates-wrapper .souclass input{ color: #666666; }
+.ranking-wrapper .listtd{ padding-bottom: 3px !important; }
+.ranking-wrapper .dw1,.ranking-wrapper .dw2,.ranking-wrapper .dw3,.ranking-wrapper .dw4,.ranking-wrapper .xqimg{ margin-top: 19px; }
+.ranking-wrapper .xqimg{margin-top: 22px !important;
+    margin-bottom: 14px;float: right;
+    padding: 0 10px;}
+.ranking-wrapper .dw1{ width: 42%;margin-bottom: 16px;padding-left: 5%; }
+.ranking-wrapper .dw2{ width: 14%;margin-bottom: 16px; }
+.rankingtop{ text-align: center; }
+.rankingtop .datadivtit{ display: inline-block;padding: 10px 0;font-size: 12px;width: 62px; }
+.rankingtop .datadiv{width: calc( 50% - 62px );display: inline-block;padding: 10px 0;font-size: 12px;}
+.rankingtop .datadiv input{padding: 3px 5px;font-size: 12px;width: 82%;
+    border: 0px;
+    background: #F4F4F4;
+    border-radius: 3px;}
+	
+.details-wrapper{ width: 100%; }
+.details-wrapper > div{ border-bottom: 1px solid #F4F4F4; }
+.details-wrapper .formtitle{ font-size: 14px;padding: 10px 10px 10px 10px; }
+.details-wrapper .listtd{ width: 94%;float: left;padding: 10px 3%;color: #333333;font-size: 12px;margin: 0; }
+.details-wrapper .listtd .tit{ float: left; }
+.details-wrapper .listtd .details{ width: calc( 100% - 100px );float: right;text-align: right;}
+.datadivqkbtn{ width: 33px;
+    border: 1px solid #2C79C2;
+    padding: 1px 0px;
+    border-radius: 4px;
+    background: #2C79C2;
+    color: #ffffff;
+    font-size: 12px;display: inline-block; }

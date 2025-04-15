@@ -1,0 +1,137 @@
+{
+  "id": "7e22d9ffce3f4fcf90711c368d0e5606",
+  "name": "官方插件",
+  "parent": "root",
+  "children": [
+    {
+      "name": "云商店",
+      "id": "eca181b66f894514a8cd1f53d267cae2",
+      "shownum": 0
+    },
+    {
+      "name": "公共组件",
+      "id": "eca181b66f894514a8cd1f53d267cae1",
+      "shownum": 1
+    },
+    {
+      "name": "工作流程",
+      "id": "5fbb75213ee9445dbda3dc960758e0e9",
+      "shownum": 2
+    },
+    {
+      "name": "人力资源",
+      "id": "8600bce6b67444d58cb330510dd5f504",
+      "shownum": 3
+    },
+    {
+      "name": "门户协同",
+      "id": "922322a7c0ed406fb61d9cbff7dd0dfd",
+      "shownum": 4
+    },
+    {
+      "name": "知识管理",
+      "id": "1f58609b18f7463db84132158035daf5",
+      "shownum": 5
+    },
+    {
+      "name": "系统集成",
+      "id": "1a29dc1669e842d0a2cc72e35c26a7db",
+      "shownum": 6
+    },
+    {
+      "name": "数据中心",
+      "id": "923124e7c0774cdd9c289fef5db30796",
+      "shownum": 7
+    },
+    {
+      "name": "公文管理",
+      "id": "fe27175230bd498d9a2ed23694afeb8a",
+      "shownum": 8
+    },
+    {
+      "name": "印控中心",
+      "id": "dc0c6c93772b4222b593b0f3d4c108df",
+      "shownum": 9
+    },
+    {
+      "name": "品质管理",
+      "id": "46be28677f464954b5e5ce9a17239132",
+      "shownum": 10
+    },
+    {
+      "name": "政务应用",
+      "id": "a6bf1330d08849b2a4e890fe6bf997e8",
+      "shownum": 11
+    },
+    {
+      "name": "移动建模",
+      "id": "2bf9133badfa46c188f3d1a8de2f06fa",
+      "shownum": 12
+    },
+    {
+      "name": "表单建模",
+      "id": "c32e5777cc7d4b60910415b8ec6adceb",
+      "shownum": 13
+    },
+    {
+      "name": "政务应用",
+      "id": "0c9d208a671e430a8907d83dece9adca",
+      "shownum": 14
+    },
+    {
+      "name": "公文管理",
+      "id": "cb3caeeb769b452fb09498532d3fd2bc",
+      "shownum": 15
+    },
+    {
+      "name": "项目资产",
+      "id": "9282a5f6d5a9445caf5c569e54c15c63",
+      "shownum": 16
+    },
+    {
+      "name": "执行力平台",
+      "id": "374d55a4b68d4aa5bdb803c00a8c5806",
+      "shownum": 17
+    },
+    {
+      "name": "财务",
+      "id": "3f0f467e8e8c4051935e01295b92d337",
+      "shownum": 18
+    },
+    {
+      "name": "邮件",
+      "id": "7293f0e610c648fca1397ef8a8a20e4c",
+      "shownum": 19
+    },
+    {
+      "name": "协作",
+      "id": "d830870bd5cb4521a4ee6fb18b07bf2c",
+      "shownum": 20
+    },
+    {
+      "name": "日程",
+      "id": "1d36aae3e6d64f9093b332512552b7ac",
+      "shownum": 21
+    },
+    {
+      "name": "会议",
+      "id": "f9e19e01534c4c72a520adbe039af691",
+      "shownum": 22
+    },
+    {
+      "name": "短信",
+      "id": "f665f0410cd94093bd72cd84265a7eb1",
+      "shownum": 23
+    },
+    {
+      "name": "微搜",
+      "id": "039dfcc803234927913ca2743539891a",
+      "shownum": 24
+    },
+    {
+      "name": "eteams",
+      "id": "3a0c9bbb8a984584962496d01354ade3",
+      "shownum": 25
+    }
+  ]
+}

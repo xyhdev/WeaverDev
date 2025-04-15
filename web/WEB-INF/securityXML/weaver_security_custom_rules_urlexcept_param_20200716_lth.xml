@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<url-except-params>
+		<url>/customization/customportal/</url>
+	</url-except-params>
+	
+	<skip-any-check-list>
+		<url>/customization/customportal/</url>
+	</skip-any-check-list>
+    
+</root>
